@@ -1,0 +1,19 @@
+p{
+    background-color: aquamarine;
+}
+
+.anchor:hover{
+    background-color: red;
+     
+}
+.anchor{
+    background-color: black;
+     
+}
+.span{
+    background-color: blueviolet;
+}
+
+div{
+    background-color: brown;
+}

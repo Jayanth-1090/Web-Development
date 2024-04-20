@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts and Colors</title>
+    <!-- ///You can also include Baloo bhaiya font using link as given below instead of import statement
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet"> -->
+    <style>
+        /* Below line import is took from google fonts | Fontname:Baloo Bhaiya2 */
+
+        /* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@500&display=swap'); */
+
+        /* This import statement has two fonts poppins and baloo bhaiya2  */
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@500&display=swap');
+
+        h1 {
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: 'Poppins', sans-serif;
+            font-style: oblique;
+        }
+
+        p {
+            /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-size: 20px;
+            /* font-style: italic; */
+            /* font-weight: bolder; To increase or decrease the size of font */
+            /* text-decoration:underline; To underline or decorate the text */
+
+        }
+
+        .L {
+            line-height: 2px;
+            letter-spacing: 2;
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-transform: capitalize;
+            text-decoration-thickness: 3px;
+            text-indent: 45px;
+            text-align: center;
+        }
+
+        .lorem {
+            border: solid black;
+            width: 45px;
+            /* text-overflow: clip;
+    overflow: hidden; */
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <p>This is a video on Fonts</p>
+    </div>
+    <div>
+        <p class="L">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat modi reprehenderit itaque
+            distinctio aliquid, dolore ipsa quae est deserunt </p>
+        <h2>About this</h2>
+    </div>
+    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod harum repudiandae placeat excepturi
+        aspernatur saepe nulla nam? Praesentium autem fugiat consectetur provident eaque.</p>
+</body>
+
+</html>
